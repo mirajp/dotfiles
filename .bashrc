@@ -119,6 +119,10 @@ alias cd="cd -LP"
 
 alias ssh="ssh -o ServerAliveInterval=30"
 
+alias docs="cd /mnt/c/Users/mirag/Documents/"
+alias Docs="cd /mnt/c/Users/mirag/Documents/"
+alias ..="cd .."
+
 export DISPLAY=localhost:0.0
 
 loopandtime() {
