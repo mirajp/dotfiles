@@ -147,3 +147,6 @@ gcv() {
     fi
 }
 
+# Remove Windows Nodejs from PATH
+PATH=$(echo :$PATH: | sed -e 's,:/mnt/c/Program Files/nodejs:,:,g' -e 's/^://' -e 's/:$//')
+
